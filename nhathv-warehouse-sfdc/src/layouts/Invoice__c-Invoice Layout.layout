@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Layout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customButtons>Renumber_Line_Items</customButtons>
     <excludeButtons>Submit</excludeButtons>
     <layoutSections>
         <customLabel>false</customLabel>
@@ -66,7 +67,6 @@
     <relatedLists>
         <fields>NAME</fields>
         <fields>Merchandise__c.NAME</fields>
-        <fields>Merchandise__c</fields>
         <fields>Quantity__c</fields>
         <fields>Line_Item_Total__c</fields>
         <relatedList>Line_Item__c.Invoice__c</relatedList>
@@ -77,7 +77,7 @@
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
     <summaryLayout>
-        <masterLabel>00hi0000000hrDC</masterLabel>
+        <masterLabel>00h28000000FmYC</masterLabel>
         <sizeX>4</sizeX>
         <sizeY>0</sizeY>
         <summaryLayoutStyle>Default</summaryLayoutStyle>

@@ -41,4 +41,8 @@
         </sections>
     </layouts>
     <startsWith>Vowel</startsWith>
+    <webLinks>
+        <label><!-- Renumber_Line_Items --></label>
+        <name>Renumber_Line_Items</name>
+    </webLinks>
 </CustomObjectTranslation>

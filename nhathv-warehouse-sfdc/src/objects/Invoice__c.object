@@ -110,4 +110,19 @@
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <startsWith>Vowel</startsWith>
+    <webLinks>
+        <fullName>Renumber_Line_Items</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Renumber Line Items</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/29.0/connection.js&quot;)}
+{!REQUIRESCRIPT(&quot;/soap/ajax/29.0/apex.js&quot;)}
+var result = sforce.apex.execute(&quot;InvoiceUtilities&quot;,&quot;renumberLineItems&quot;,{invoiceName:&quot;{!
+Invoice__c.Name}&quot;});
+window.location.reload();
+alert(result);</url>
+    </webLinks>
 </CustomObject>
