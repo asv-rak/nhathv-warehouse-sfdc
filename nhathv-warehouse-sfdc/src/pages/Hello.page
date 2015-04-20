@@ -1,0 +1,5 @@
+<apex:page >
+  <apex:pageBlock title="Hello world">
+      <apex:outputText > Hello world from output text</apex:outputText>
+  </apex:pageBlock>
+</apex:page>
