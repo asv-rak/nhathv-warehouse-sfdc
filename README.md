@@ -1,6 +1,6 @@
 # nhathv-warehouse-sfdc
 
-account DE: nhathv@dev10.mayxam.net
+account DE: nhathv.dev@gmail.com
 
 TUT: http://www.salesforce.com/us/developer/docs/workbook/forcecom_workbook.pdf
 
